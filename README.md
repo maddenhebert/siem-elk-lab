@@ -40,7 +40,14 @@ During testing, it was observed that endpoint telemetry (Sysmon) does not captur
 An Nmap TCP SYN scan was performed against the Windows host. The results showed only two open ports: TCP 445 (SMB) and TCP 5985 (WinRM), both intentionally enabled for controlled testing. All other ports were reported as filtered, indicating that the Windows Defender Firewall was actively blocking unsolicited traffic.
 
 ## Screenshots 
-
+### ELK Stack Running in Terminal 
+![](screenshots/elk_stack_running.png)
+### Kibana Dashboard 
+![](screenshots/kibana_dashboard.png)
+### Custom Windows Configuration 
+![](screenshots/windows_configurations.png)
+### Kali NMAP on Windows
+![](screenshots/kali_nmap.png)
 
 ## Skills Demonstrated
 - SIEM (ELK Stack)
